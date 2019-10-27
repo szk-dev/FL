@@ -1,0 +1,606 @@
+/* 画面タイトル */
+
+title {
+
+
+}
+
+/* フォント */
+p.fontmsg {
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	padding:0 10px
+}
+
+
+
+/* グラデーション */
+
+.ft0 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffff0000, endcolorstr=#9000ff00, gradienttype=0);
+	width: 100%;
+	height: 150;
+}
+
+.ft1 {
+	width:150;
+	background-color:#000099;
+	filter:alpha(opacity=90,style=1);
+	text-align:left;
+	padding:6px;
+}
+
+.textboxdisp {
+	border: 0px solid gray;
+	background-Color: ffffff;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* テキストボックススタイルシート */
+.textboxdisp1 {
+	border: 0px;
+	background-Color: ffffff;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+.textboxdisp2 {
+	border:0px solid gray;
+	background-Color:DDFFC8;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+.textboxdisp3 {
+	border:0px;
+	background-Color:ffffff;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	text-align:right;
+}
+.textboxdisp4{
+	border:0px;
+	background-Color:DDFFC8;
+	font-family: "ＭＳ Ｐゴシック";
+	text-align:right;
+}
+.textboxdisp5{
+	border:0px;
+	background-Color:ffffff;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	text-align:right;
+}
+.textboxdisp6{
+	border:0px;
+	background-Color:DDFFC8;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	text-align:right;
+}
+.body {
+	background-color: #ffffff; color: #000000;
+	font-size: 20px;
+}
+
+.body, td, th, h1, h2 {
+	font-family: ＭＳ Ｐゴシック,sans-serif;
+}
+.table{
+	border-collapse: collapse;
+}
+.center table {
+	margin-left: auto; margin-right: auto; text-align: left;
+}
+.center th {
+	text-align: center !important;
+}
+//td, th {
+//	border: 1px solid #000000;
+//}
+
+.e {
+	background-color: #ffccff; font-weight: bold; color: #000000;
+}
+
+.h {
+	background-color: #9999cc; font-weight: bold; color: #666666;
+}
+.i {
+	background-color: #ffffff; font-weight: bold; color: #666666;
+}
+
+.acbtn1 {
+	background-color: #8aa3f4;
+	color: black;
+	/*font-size: x-small;*/
+	font-size: small;
+	text-align: center;
+}
+
+.tdnone {
+	//border: 0px solid #666666;
+	vertical-align: middle;
+	empty-cells: show;
+	height: 22;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+}
+/* テキストボックス(条件必須) */
+.tdnone0 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: ffff66;
+	empty-cells: show;
+	height: 25;
+	font-weight: bold;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+/* テキストボックス(必須) */
+.tdnone1 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: ff99cc;
+	empty-cells: show;
+	height: 25;
+	font-weight: bold;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+/* テキストボックス(任意) */
+.tdnone2 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: 99cccc;
+	empty-cells: show;
+	height: 25;
+	font-weight: bold;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+.tdnone3 {
+	border-color: 666666;
+	vertical-align: middle;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+.tdnone3_60 {
+	border-color: 666666;
+	vertical-align: middle;
+	empty-cells: show;
+	height: 60;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+.tdnone4 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: DDFFC8;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+.tdnone3red {
+	border-color: 666666;
+	vertical-align: middle;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	color: #FF0000;
+	border: 1px solid #696969;
+}
+.tdnone4red {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: DDFFC8;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	font-size: x-small;
+	color: #FF0000;
+	border: 1px solid #696969;
+}
+.tdnone5 {
+	background-color: #000066;
+	padding: 5px;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	font-color: #000000;
+	color: white;
+	border: 1px solid #696969;
+}
+.tdnone6 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: 200059;
+	empty-cells: show;
+	height: 25;
+	font-weight: bold;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+	text-align:center;
+}
+
+.tdnone7 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: #ffffff;
+	empty-cells: show;
+	height: 25;
+	font-weight: bold;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 0px dashed #ffffff;
+}
+
+/* メイン画面用 */
+.tdnone8 {
+	border-color: 666666;
+	vertical-align: middle;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: small;*/
+	border: 1px solid #696969;
+}
+/* テキストボックス(表示) */
+.tdnone9 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: DDFFC8;
+	empty-cells: show;
+	height: 25;
+	font-weight: bold;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+
+/* テキストボックス(回答期限切れ表示) */
+.tdnone10 {
+
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: #ff33cc;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+
+}
+
+/* テキストボックス(回答期限切れ間近表示) */
+.tdnone11 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: #ffff00;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+
+/* テキストボックス(解決済表示) */
+.tdnone12 {
+	border-color: 666666;
+	vertical-align: middle;
+	background-color: #DCDCDC;
+	empty-cells: show;
+	height: 25;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	/*font-size: x-small;*/
+	font-size: small;
+	border: 1px solid #696969;
+}
+
+
+.tbline {
+
+	border-collapse: collapse;
+	border: 1px solid #666666;
+}
+.tblineRed {
+
+	border-collapse: collapse;
+	border: 1px solid #666666;
+	color: #ff0000;
+}
+.sumtr {
+	background-color: #C8C8FF;
+}
+.sumheader {
+	background-color: #F1FFC8;
+}
+.fontheader{
+	color: #000000: font-size: 200%;
+}
+
+h2.title02{
+	margin: 0.5em 10% 1.2em 10px;
+	padding: 0.3em 0.5em 0.2em 0.5em;
+	border-style: solid;
+	border-width: 0 0 1px 25px;
+	border-color: #C98888;
+	font-size: 16px;
+}
+h3.title02{
+	margin: 0.9em 15% 0.5em 10px;
+	padding: 0.2em 0.5em 0.1em 0.5em;
+	border-style: solid;
+	border-width: 0 0 1px 17px;
+	border-color: #DE9C9C;
+	font-size: 14px;
+}
+.lbor{/*全体枠*/
+  width: 400px;/*全体の幅*/
+  border-left: solid 4px #D94545;/*枠色*/
+  border-bottom: solid 1px #D94545;
+  }
+.title{/*タイトル部分*/
+  width: 100%;
+  font-size: 12pt;/*文字サイズ*/
+  font-family: Impact,Arial,Verdana,sans-serif;
+  letter-spacing: 0.4em;
+  color: #FFFFFF;/*文字色*/
+  background-color: #D94545;/*背景色*/
+  padding: 1px 1em 1px 0.7em;
+  border-left: solid 3px #FFD9EE;
+  filter: alpha(opacity=100,finishopacity=10,style=1);
+  }
+.text{/*内容部分*/
+  font-size: 9pt;/*文字サイズ*/
+  color: #151515;/*文字色*/
+  padding: 0.7em;
+  border-top: solid 1px #D94545;/*枠色*/
+  border-right: solid 1px #FFF5F5;
+  border-left: solid 3px #FFD9EE;
+  }
+
+.box08{
+  width: 450px;/*全体の幅*/
+  font-size: 12px;/*文字サイズ*/
+	background: #FFFFFF;/*背景色*/
+  }
+.box08 dt{/*タイトル部分の設定*/
+  width: 10em;/*タイトルの幅（文字数）*/
+  color: #FFFFFF;/*文字色*/
+	background: #DE7A7A;/*背景色*/
+  font-weight: bold;
+	text-align: center;
+  margin: 0;
+  padding: 6px 0 2px 0;
+  }
+.box08 dd{/*内容部分*/
+  margin: 0;
+  border-top: solid 4px #DE7A7A;/*上側の枠の色*/
+	background: #EFE7E7;/*背景色*/
+  }
+.box08 dd p{
+  padding: 1em;/*テキスト部分の余白*/
+  margin: 0;
+  }
+
+
+.box09{
+  width: 1237px;/*全体の幅*/
+  font-size: 12px;/*文字サイズ*/
+	background : #646466 url(../css/gif/009_1.gif) no-repeat 0% 0%;/*背景色*/
+  }
+.box09 dt{/*タイトル部分の設定*/
+  color: #FFFFFF;/*文字色*/
+	background : #646466 url(../css/gif/009_2.gif) no-repeat 100% 0%;/*背景色*/
+  font-weight: bold;
+	text-align: left;
+  margin: 0 0 0 12px;
+  padding: 6px 12px 2px 0;
+  }
+.box09 dd{/*内容部分*/
+  margin: 0;
+  border: solid 1px #646466;/*枠の色*/
+	background: #FFFFFF;
+  }
+.box09 dd p{
+  padding: 1em;/*テキスト部分の余白*/
+  margin: 0;
+  }
+
+  .box10{
+  width: 500px;/*全体の幅*/
+  font-size: 12px;/*文字サイズ*/
+	background : #646466 url(../css/gif/009_1.gif) no-repeat 0% 0%;/*背景色*/
+  }
+.box10 dt{/*タイトル部分の設定*/
+  color: #FFFFFF;/*文字色*/
+	background : #646466 url(../css/gif/009_2.gif) no-repeat 100% 0%;/*背景色*/
+  font-weight: bold;
+	text-align: left;
+  margin: 0 0 0 12px;
+  padding: 6px 12px 2px 0;
+  }
+.box10 dd{/*内容部分*/
+  margin: 0;
+  border: solid 1px #646466;/*枠の色*/
+	background: #FFFFFF;
+  }
+.box10 dd p{
+  padding: 1em;/*テキスト部分の余白*/
+  margin: 0;
+  }
+
+.box24{
+  width: 230px;/*全体の幅*/
+  font-size: 12px;/*文字サイズ*/
+  }
+.box24 dt{/*タイトル部分の設定*/
+  color: #FFFFFF;/*文字色*/
+  background-color: #6A6A6C;/*背景色*/
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  width: 230px;/*タイトルの幅*/
+  padding: 2px 1em 2px 1.5em;
+  background-image : url(gif/024_gray.gif);
+  background-repeat: no-repeat;
+  }
+.box24 dd{/*内容部分*/
+  color: #313132;/*文字色*/
+  margin: 0;
+  padding: 0;
+  border: solid 1px #6A6A6E;/*枠色*/
+  }
+.box24 dd .textb24{
+  padding: 1.2em 0.9em;/*テキスト部分の余白*/
+  border-top: solid 4px #DADADC;
+  border-bottom: solid 4px #DADADC;
+  }
+.waku{
+	width:100%;
+	padding:3px;
+	margin : 20px 0px 10px 0px ;
+	background:#ce9e6f;
+	border:solid 3px #c08345;
+}
+.waku_a{
+	width:100%;
+	padding:5px;
+	background:#f7eee6;
+	text-align:left;
+	border:solid 3px #e3c9ae;
+}
+.shadow23{
+  width: 600px;/*全体の幅*/
+  /*background-color: #A9A9A9;*//*影の色*/
+  margin: 20px 10px 10px 20px;
+  /*padding-right: 20px;*/
+  }
+.text23{
+  width: 600px;/*全体の幅、shadowと同じに*/
+  font-family: font-family:"MS UI Gothic";
+  font-weight:"bolder";
+  font-size: 14pt;/*全体の文字サイズ*/
+  position: relative;
+  background: #6495ED;/*文字部分の背景色*/
+  margin: -10px -10px 10px -10px;
+  /*padding: 0.8em;*/ /*内部の余白*/
+  border: solid 1px #6600cc;
+  }
+.shadow23a{
+  width: 600px;/*全体の幅*/
+  background-color: #E9868C;/*影の色*/
+  margin: 20px 10px 10px 20px;
+  padding-right: 20px;
+  filter: alpha(opacity=20,finishopacity=100,style=1);
+  }
+.shadow23b{
+  width: 600px;/*全体の幅*/
+  background-color: #E9969C;/*影の色*/
+  margin: 20px 10px 10px 20px;
+  padding-right: 20px;
+  filter: blur(direction=305,strength=15)
+  ;}
+
+
+.boxTitle{
+  width: 650px;/*全体の幅*/
+  height: 350px;
+  font-size: 10pt;/*文字サイズ*/
+  border: solid 1px #00BFFF;
+  }
+.boxTitle dt{/*タイトル部分の設定*/
+  float: left;
+  width: 168px;/*タイトルの幅*/
+  height: 340px;
+  color: #FFFFFF;/*文字色*/
+  background-color: #000099;/*背景色*/
+  font-weight: bold;
+  margin: 0;
+  padding: 15px 0 0 0;
+  border-style: solid;
+  border-color: #75C8FF;/*枠の色*/
+  border-width: 1px 1px 1px 1px;
+  }
+.boxTitle dt span{
+  padding-left: 6px;
+  margin-left: 6px;
+  border-left: 4px solid #35E6FF;/*タイトル部の左縦線*/
+  }
+.boxTitle dd{/*内容部分*/
+  height: 340px;
+  width: 464px;/*内容部分の幅*/
+  float: left;
+  margin: 0;
+  padding: 0 0 8px 0;
+  border-top: solid 1px #00D5F2;/*枠の色*/
+  border-right: solid 15px #00D5F2;/*右側の着色部分*/
+  border-bottom: solid 1px #00D5F2;
+  border-left: solid 1px #00D5F2;
+  }
+.boxTitle dd p{
+  padding: 0.7em;/*テキスト部分の余白*/
+  margin: 0;
+  }
+  h2.title03{
+	width: 400px;/*幅*/
+	text-align: center;
+	margin: 0.8em;/*周囲の余白*/
+	padding: 0.3em 0.5em 0.2em 0.5em;
+	border-style: solid;
+	border-width: 1px 120px 1px 120px;
+	border-color: #EEA6A6;/*枠色*/
+	font-size: 20px;/*文字サイズ*/
+}
+.sortcol {
+	cursor: pointer;
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.sortasc {
+	background-color: #ffff66;
+	background-image: url(../gif/up.gif);
+}
+.sortdesc {
+	background-color: #ffcc99;
+	background-image: url(../gif/down.gif);
+}
+.nosort {
+	cursor: default;
+}
+th.resize-handle-active {
+	cursor: e-resize;
+}
+
+div.resize-handle {
+	cursor: e-resize;
+	width: 2px;
+	border-right: 1px dashed #1E90FF;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.roweven {
+	background-color: DDFFC8;
+}
+

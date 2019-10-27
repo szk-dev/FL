@@ -1,0 +1,7 @@
+最新ファイル
+D_doc_file
+ddf_memo ←コメント255バイト
+
+過去ファイル
+D_reversion
+dr_memo ←コメント255バイト

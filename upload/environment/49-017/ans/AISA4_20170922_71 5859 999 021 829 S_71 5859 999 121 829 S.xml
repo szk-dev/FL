@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DESCRIPT xsi:schemaLocation="http://www.jeita.or.jp/schemas/20110906mas-ecalgaAS2_3 20110906mas-ecalgaAS2_3.xsd" xmlns="http://www.jeita.or.jp/schemas/20110906mas-ecalgaAS2_3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!--JAMP AIS Input Support tool 4.1c by FSL-->
+	<VENDOR code="" Url="">
+		<VENDOR_NAME>SUZUKI CO.,LTD</VENDOR_NAME>
+	</VENDOR>
+	<PRODUCT_NO pub_level="0" status="0">71 5859 999 021 829 S/71 5859 999 121 829 S</PRODUCT_NO>
+	<VERSION_NO>4</VERSION_NO>
+	<LANG>ja</LANG>
+	<KJA001>
+		<CLASS_SNAME>ENVIRONMENT/ROOT</CLASS_SNAME>
+		<KJA017>
+			<CLASS_SNAME>JAMP SHEET</CLASS_SNAME>
+			<EDK017-001>
+				<KJE134 type="String" pub_level="0" segment="KSG005">
+					<PROPERTY_SNAME>Sheet GP ID</PROPERTY_SNAME>
+					<PROPERTY_VALUE>9999999999999999</PROPERTY_VALUE>
+				</KJE134>
+				<KJE135 type="ENUM" pub_level="0" segment="KSG005">
+					<PROPERTY_SNAME>Sheet type</PROPERTY_SNAME>
+					<PROPERTY_VALUE>AIS</PROPERTY_VALUE>
+				</KJE135>
+				<KJE136 type="String" pub_level="0" segment="KSG005">
+					<PROPERTY_SNAME>Use format</PROPERTY_SNAME>
+					<PROPERTY_VALUE>Ver.4.1</PROPERTY_VALUE>
+				</KJE136>
+				<KJE016 type="Date" pub_level="0" segment="KSG001">
+					<PROPERTY_SNAME>Creation date</PROPERTY_SNAME>
+					<PROPERTY_VALUE>2016-02-03</PROPERTY_VALUE>
+				</KJE016>
+				<KJE017 type="Date" pub_level="0" segment="KSG001">
+					<PROPERTY_SNAME>Revised date</PROPERTY_SNAME>
+					<PROPERTY_VALUE>2017-09-22</PROPERTY_VALUE>
+				</KJE017>
+				<KJE014 type="Int" pub_level="0" segment="KSG001">
+					<PROPERTY_SNAME>Revision history</PROPERTY_SNAME>
+					<PROPERTY_VALUE>4</PROPERTY_VALUE>
+				</KJE014>
+			</EDK017-001></KJA017><KJA018>
+			<CLASS_SNAME>PUBLISHER INFO</CLASS_SNAME>
+			<EDK018-001>
+				<KJE012 type="String" pub_level="0" segment="KSG002">
+					<PROPERTY_SNAME>Corporate name C</PROPERTY_SNAME>
+					<PROPERTY_VALUE>SUZUKI CO.,LTD</PROPERTY_VALUE>
+				</KJE012>
+			</EDK018-001>
+			<KJA019>
+				<CLASS_SNAME>CHARGE SECTION</CLASS_SNAME>
+				<EDK019-001>
+					<KJE143 type="String" pub_level="0" segment="KSG002">
+						<PROPERTY_SNAME>Section name</PROPERTY_SNAME>
+						<PROPERTY_VALUE>品質保証部</PROPERTY_VALUE>
+					</KJE143>
+					<KJE144 type="String" pub_level="0" segment="KSG002">
+						<PROPERTY_SNAME>Section address</PROPERTY_SNAME>
+						<PROPERTY_VALUE>長野県須坂市大字日滝字虫送3500-8</PROPERTY_VALUE>
+					</KJE144>
+					<KJE145 type="String" pub_level="0" segment="KSG002">
+						<PROPERTY_SNAME>Section phone No</PROPERTY_SNAME>
+						<PROPERTY_VALUE>026-251-2622</PROPERTY_VALUE>
+					</KJE145>
+					<KJE146 type="String" pub_level="0" segment="KSG002">
+						<PROPERTY_SNAME>Section FAX No</PROPERTY_SNAME>
+						<PROPERTY_VALUE>026-251-2623</PROPERTY_VALUE>
+					</KJE146>
+				</EDK019-001></KJA019><KJA020>
+				<CLASS_SNAME>CREATING INFO</CLASS_SNAME>
+				<EDK020-001>
+					<KJE093 type="String" pub_level="0" segment="KSG004">
+						<PROPERTY_SNAME>Section name</PROPERTY_SNAME>
+						<PROPERTY_VALUE>品質保証部</PROPERTY_VALUE>
+					</KJE093>
+					<KJE124 type="String" pub_level="0" segment="KSG004">
+						<PROPERTY_SNAME>Supplier phone No</PROPERTY_SNAME>
+						<PROPERTY_VALUE>026-251-2622</PROPERTY_VALUE>
+					</KJE124>
+				</EDK020-001></KJA020></KJA018><KJA022>
+			<CLASS_SNAME>R/PRODUCT INFO</CLASS_SNAME>
+			<EDK022-001/></KJA022><KJA022>
+			<CLASS_SNAME>R/PRODUCT INFO</CLASS_SNAME>
+			<EDK022-001/></KJA022><KJA022>
+			<CLASS_SNAME>R/PRODUCT INFO</CLASS_SNAME>
+			<EDK022-001/></KJA022><KJA022>
+			<CLASS_SNAME>R/PRODUCT INFO</CLASS_SNAME>
+			<EDK022-001/></KJA022><KJA022>
+			<CLASS_SNAME>R/PRODUCT INFO</CLASS_SNAME>
+			<EDK022-001/></KJA022><KJA022>
+			<CLASS_SNAME>R/PRODUCT INFO</CLASS_SNAME>
+			<EDK022-001/></KJA022><KJA024>
+			<CLASS_SNAME>TOTAL INFO</CLASS_SNAME>
+			<EDK024-001>
+				<KJE167 type="String" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Mat class code</PROPERTY_SNAME>
+					<PROPERTY_VALUE>S002</PROPERTY_VALUE>
+				</KJE167>
+				<KJE168 type="RealM" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Material mass</PROPERTY_SNAME>
+					<PROPERTY_VALUE level="Nom" unit="g">0.0000849</PROPERTY_VALUE>
+				</KJE168>
+			</EDK024-001>
+		</KJA024><KJA024>
+			<CLASS_SNAME>TOTAL INFO</CLASS_SNAME>
+			<EDK024-001>
+				<KJE167 type="String" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Mat class code</PROPERTY_SNAME>
+					<PROPERTY_VALUE>S008</PROPERTY_VALUE>
+				</KJE167>
+				<KJE168 type="RealM" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Material mass</PROPERTY_SNAME>
+					<PROPERTY_VALUE level="Nom" unit="g">0.0000026</PROPERTY_VALUE>
+				</KJE168>
+			</EDK024-001>
+		</KJA024><KJA026>
+			<CLASS_SNAME>P/PRODUCT INFO</CLASS_SNAME>
+			<EDK026-001>
+				<KJE101 type="String" pub_level="0" segment="KSG004">
+					<PROPERTY_SNAME>Manufacturer</PROPERTY_SNAME>
+					<PROPERTY_VALUE>株式会社 鈴木</PROPERTY_VALUE>
+				</KJE101>
+				<KJE018 type="String" pub_level="0" segment="KSG002">
+					<PROPERTY_SNAME>P/product ID C</PROPERTY_SNAME>
+					<PROPERTY_VALUE>71 5859 999 021 829 S/71 5859 999 121 829 S</PROPERTY_VALUE>
+				</KJE018>
+				<KJE172 type="String" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>P/general name</PROPERTY_SNAME>
+					<PROPERTY_VALUE>PLUG CONT SMT 0.35mmPITCH　BOARD TO BOARD H=0.9HYPER SLIM</PROPERTY_VALUE>
+				</KJE172>
+				<KJE176 type="ENUM" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Making to set</PROPERTY_SNAME>
+					<PROPERTY_VALUE>0</PROPERTY_VALUE>
+				</KJE176>
+				<KJE177 type="ENUM" pub_level="0" segment="KSG007">
+					<PROPERTY_SNAME>Reported unit</PROPERTY_SNAME>
+					<PROPERTY_VALUE>PC</PROPERTY_VALUE>
+				</KJE177>
+				<KJE023 type="RealM" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Mass of product</PROPERTY_SNAME>
+					<PROPERTY_VALUE level="Nom" unit="g" prefix="m">0.0875</PROPERTY_VALUE>
+				</KJE023>
+				<KJE178 type="ENUM" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>GADSL division</PROPERTY_SNAME>
+					<PROPERTY_VALUE>1</PROPERTY_VALUE>
+				</KJE178>
+				<KJE179 type="ENUM" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>JIG division</PROPERTY_SNAME>
+					<PROPERTY_VALUE>1</PROPERTY_VALUE>
+				</KJE179>
+				<KJE180 type="ENUM" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Content division</PROPERTY_SNAME>
+					<PROPERTY_VALUE>1</PROPERTY_VALUE>
+				</KJE180>
+				<KJE181 type="String" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Material list</PROPERTY_SNAME>
+					<PROPERTY_VALUE>2.01</PROPERTY_VALUE>
+				</KJE181>
+				<KJE182 type="String" pub_level="0" segment="KSG003">
+					<PROPERTY_SNAME>Substance list</PROPERTY_SNAME>
+					<PROPERTY_VALUE>4.080</PROPERTY_VALUE>
+				</KJE182>
+			</EDK026-001>
+			<KJA027>
+				<CLASS_SNAME>INTERLAYER  INFO</CLASS_SNAME>
+				<KJA028>
+					<CLASS_SNAME>LOWEST PART INFO</CLASS_SNAME>
+					<EDK028-001>
+						<KJE059 type="String" pub_level="0" segment="KSG007">
+							<PROPERTY_SNAME>Lower part name</PROPERTY_SNAME>
+							<PROPERTY_VALUE>Niめっき被膜</PROPERTY_VALUE>
+						</KJE059>
+						<KJE185 type="Real" pub_level="0" segment="KSG007">
+							<PROPERTY_SNAME>Number of parts</PROPERTY_SNAME>
+							<PROPERTY_VALUE>1.0</PROPERTY_VALUE>
+						</KJE185>
+						<KJE186 type="Int" pub_level="0" segment="KSG007">
+							<PROPERTY_SNAME>Part level</PROPERTY_SNAME>
+							<PROPERTY_VALUE>1</PROPERTY_VALUE>
+						</KJE186>
+					</EDK028-001>
+					<KJA029>
+						<CLASS_SNAME>MATERIAL INFO</CLASS_SNAME>
+						<EDK029-001>
+							<KJE187 type="String" pub_level="0" segment="KSG007">
+								<PROPERTY_SNAME>Material usage</PROPERTY_SNAME>
+								<PROPERTY_VALUE>6</PROPERTY_VALUE>
+							</KJE187>
+							<KJE189 type="String" pub_level="0" segment="KSG007">
+								<PROPERTY_SNAME>Class code</PROPERTY_SNAME>
+								<PROPERTY_VALUE>S002</PROPERTY_VALUE>
+							</KJE189>
+							<KJE128 type="RealM" pub_level="0" segment="KSG007">
+								<PROPERTY_SNAME>Material mass</PROPERTY_SNAME>
+								<PROPERTY_VALUE level="Nom" unit="g" prefix="m">0.0849</PROPERTY_VALUE>
+							</KJE128>
+						</EDK029-001>
+						<KJA030>
+							<CLASS_SNAME>SUBSTANCE INFO</CLASS_SNAME>
+							<EDK030-001>
+								<KJE070 type="String" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Substance name</PROPERTY_SNAME>
+									<PROPERTY_VALUE>Nickel</PROPERTY_VALUE>
+								</KJE070>
+								<KJE071 type="String" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>CAS number</PROPERTY_SNAME>
+									<PROPERTY_VALUE>7440-02-0</PROPERTY_VALUE>
+								</KJE071>
+								<KJE131 type="RealM" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Content rate</PROPERTY_SNAME>
+									<PROPERTY_VALUE level="Nom" unit="ppm">1000000</PROPERTY_VALUE>
+								</KJE131>
+								<KJE133 type="RealM" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Content mass</PROPERTY_SNAME>
+									<PROPERTY_VALUE level="Nom" unit="g" prefix="m">0.0849</PROPERTY_VALUE>
+								</KJE133>
+							</EDK030-001>
+							<KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU05</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU03</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>OT01</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU04</PROPERTY_VALUE>
+									</KJE192>
+									<KJE278 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Report code</PROPERTY_SNAME>
+										<PROPERTY_VALUE>1</PROPERTY_VALUE>
+									</KJE278>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU06</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU02</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU01</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA01</PROPERTY_VALUE>
+									</KJE192>
+									<KJE278 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Report code</PROPERTY_SNAME>
+										<PROPERTY_VALUE>D</PROPERTY_VALUE>
+									</KJE278>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA02</PROPERTY_VALUE>
+									</KJE192>
+									<KJE278 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Report code</PROPERTY_SNAME>
+										<PROPERTY_VALUE>R</PROPERTY_VALUE>
+									</KJE278>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA00</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031></KJA030></KJA029></KJA028><KJA028>
+					<CLASS_SNAME>LOWEST PART INFO</CLASS_SNAME>
+					<EDK028-001>
+						<KJE059 type="String" pub_level="0" segment="KSG007">
+							<PROPERTY_SNAME>Lower part name</PROPERTY_SNAME>
+							<PROPERTY_VALUE>Auめっき被膜</PROPERTY_VALUE>
+						</KJE059>
+						<KJE185 type="Real" pub_level="0" segment="KSG007">
+							<PROPERTY_SNAME>Number of parts</PROPERTY_SNAME>
+							<PROPERTY_VALUE>1.0</PROPERTY_VALUE>
+						</KJE185>
+						<KJE186 type="Int" pub_level="0" segment="KSG007">
+							<PROPERTY_SNAME>Part level</PROPERTY_SNAME>
+							<PROPERTY_VALUE>1</PROPERTY_VALUE>
+						</KJE186>
+					</EDK028-001>
+					<KJA029>
+						<CLASS_SNAME>MATERIAL INFO</CLASS_SNAME>
+						<EDK029-001>
+							<KJE187 type="String" pub_level="0" segment="KSG007">
+								<PROPERTY_SNAME>Material usage</PROPERTY_SNAME>
+								<PROPERTY_VALUE>6</PROPERTY_VALUE>
+							</KJE187>
+							<KJE189 type="String" pub_level="0" segment="KSG007">
+								<PROPERTY_SNAME>Class code</PROPERTY_SNAME>
+								<PROPERTY_VALUE>S008</PROPERTY_VALUE>
+							</KJE189>
+							<KJE128 type="RealM" pub_level="0" segment="KSG007">
+								<PROPERTY_SNAME>Material mass</PROPERTY_SNAME>
+								<PROPERTY_VALUE level="Nom" unit="g" prefix="m">0.0026</PROPERTY_VALUE>
+							</KJE128>
+						</EDK029-001>
+						<KJA030>
+							<CLASS_SNAME>SUBSTANCE INFO</CLASS_SNAME>
+							<EDK030-001>
+								<KJE070 type="String" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Substance name</PROPERTY_SNAME>
+									<PROPERTY_VALUE>Gold</PROPERTY_VALUE>
+								</KJE070>
+								<KJE071 type="String" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>CAS number</PROPERTY_SNAME>
+									<PROPERTY_VALUE>7440-57-5</PROPERTY_VALUE>
+								</KJE071>
+								<KJE131 type="RealM" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Content rate</PROPERTY_SNAME>
+									<PROPERTY_VALUE level="Nom" unit="ppm">992000</PROPERTY_VALUE>
+								</KJE131>
+								<KJE133 type="RealM" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Content mass</PROPERTY_SNAME>
+									<PROPERTY_VALUE level="Nom" unit="g" prefix="m">0.0025792</PROPERTY_VALUE>
+								</KJE133>
+							</EDK030-001>
+							<KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU05</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU03</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>OT01</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU04</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU06</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU02</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU01</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA01</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA02</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA00</PROPERTY_VALUE>
+									</KJE192>
+									<KJE278 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Report code</PROPERTY_SNAME>
+										<PROPERTY_VALUE>1</PROPERTY_VALUE>
+									</KJE278>
+								</EDK031-001></KJA031></KJA030><KJA030>
+							<CLASS_SNAME>SUBSTANCE INFO</CLASS_SNAME>
+							<EDK030-001>
+								<KJE070 type="String" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Substance name</PROPERTY_SNAME>
+									<PROPERTY_VALUE>Cobalt and its compounds;  Cobalt, elemental</PROPERTY_VALUE>
+								</KJE070>
+								<KJE071 type="String" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>CAS number</PROPERTY_SNAME>
+									<PROPERTY_VALUE>7440-48-4</PROPERTY_VALUE>
+								</KJE071>
+								<KJE131 type="RealM" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Content rate</PROPERTY_SNAME>
+									<PROPERTY_VALUE level="Nom" unit="ppm">8000</PROPERTY_VALUE>
+								</KJE131>
+								<KJE133 type="RealM" pub_level="0" segment="KSG007">
+									<PROPERTY_SNAME>Content mass</PROPERTY_SNAME>
+									<PROPERTY_VALUE level="Nom" unit="g" prefix="m">0.0000208</PROPERTY_VALUE>
+								</KJE133>
+							</EDK030-001>
+							<KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU05</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU03</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>OT01</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU04</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU06</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU02</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>EU01</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA01</PROPERTY_VALUE>
+									</KJE192>
+									<KJE278 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Report code</PROPERTY_SNAME>
+										<PROPERTY_VALUE>D</PROPERTY_VALUE>
+									</KJE278>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA02</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031><KJA031>
+								<CLASS_SNAME>CORRESPOND/NON</CLASS_SNAME>
+								<EDK031-001>
+									<KJE192 type="String" pub_level="0" segment="KSG007">
+										<PROPERTY_SNAME>Substance law ID</PROPERTY_SNAME>
+										<PROPERTY_VALUE>IA00</PROPERTY_VALUE>
+									</KJE192>
+								</EDK031-001></KJA031></KJA030></KJA029></KJA028></KJA027></KJA026></KJA001></DESCRIPT>
