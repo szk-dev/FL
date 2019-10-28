@@ -1,0 +1,10 @@
+{
+    "require": {
+        "maatwebsite/excel": "^3.1",
+        "phpmailer/phpmailer": "^6.0",
+        "phpoffice/phpword": "^0.16.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8"
+    }
+}
